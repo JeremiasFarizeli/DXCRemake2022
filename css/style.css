@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
+}
+html body{
+    background-color: 	#E0FFFF; /* #603494 Roxo do logo da DXC*/
+    font-family: Verdana, sans-serif;
+    width: 100%;
+}
+#dxc-card-menu{
+    /*background-color: #c288d7;*/
+    height: 90px;
+}
+
+#dxc-container-centro{
+    height: 600px;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: center;
+}
+.dxc-card-left{
+    background-color: #603494;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 600px;
+}
+.dxc-card-right{
+    background-color: #603494 ;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-left: 10px;
+    color: #9AAABE;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+}
+section .dxc-card-left input{
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px; 
+}
+
+.texto1{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #9AAABE;
+    height: 100px;
+}
+.texto2{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #9AAABE;
+    height: 100px;
+}
+.texto3{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #9AAABE;
+    height: 200px;
+}
+.copyButton{
+    
+}
