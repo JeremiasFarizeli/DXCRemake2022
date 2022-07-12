@@ -1,38 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    ;
 }
-html body{
-    background-color: 	#E0FFFF; /* #603494 Roxo do logo da DXC*/
+
+html body {
+    background-color: #E0FFFF;
+    /* #603494 Roxo do logo da DXC*/
     font-family: Verdana, sans-serif;
     width: 100%;
 }
-#dxc-card-menu{
-    /*background-color: #c288d7;*/
-    height: 90px;
+
+/************************************** Inicio CSS Menu ************************************************/
+#dxc-card-menu {
+    background-color: #5f249f;
+    padding: 0 1%;
+    height: 80px;
+    border-radius: 20px;
+    margin-bottom: 2px;
+    width: 1458px; /* Soma da width dos cards .dxc-card-left e .dxc-card-right */
 }
 
-#dxc-container-centro{
-    height: 600px;
-    padding: 1.5%;
+
+
+
+
+
+
+
+
+
+/************************************** Fim CSS Menu ************************************************/
+
+#dxc-container-centro {
+    padding: 0 1%;
     align-items: center;
     justify-content: center;
+    border: 3px solid red;
 }
-.dxc-card-left{
-    background-color: #603494;
+
+.dxc-card-left {
+    background-color: #8a2be2;
     border-radius: 20px;
     padding: 10px;
     display: inline-block;
     position: relative;
     width: 500px;
-    height: 600px;
+    height: 610px;
 }
-.dxc-card-right{
-    background-color: #603494 ;
+
+.dxc-card-right {
+    background-color: #8a2be2;
     border-radius: 20px;
     border: 1px solid;
     margin-left: 10px;
@@ -40,11 +62,12 @@ html body{
     padding: 10px;
     display: inline-block;
     position: absolute;
-    width: 1000px;
-    height: 600px;
+    width: 950px;
+    height: 610px;
 }
-section .dxc-card-left input{
-    height: 46px;
+
+.dxc-input-text {
+    height: 40px;
     background-color: #1B2531;
     border: 1px solid #384459;
     border-radius: 8px;
@@ -52,33 +75,178 @@ section .dxc-card-left input{
     color: #9AAABE;
     padding: 0 20px;
     font-size: 18px;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
-.texto1{
+.dxc-input-text-phones{
+    height: 40px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dxc-input-date {
+    height: 40px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #9AAABE;
+}
+
+.dxc-input-hora {
+    height: 40px;
+    width: 90px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #9AAABE;
+}
+
+.dxc-select-tentativas {
+    height: 40px;
+    width: 250px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #9AAABE;
+}
+
+.dxc-label {
+    height: 40px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #9AAABE;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.dxc-label2{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #9AAABE;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dxc-input-text-cardRight{
+    height: 60px;
+    width: 100%;
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #9AAABE;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/************************************** inicio CSS Botão ************************************************/
+.btnGerar {
+    background-color: #2d2d2d;
+    padding: 20px 12px;
+    border-radius: 8px;  
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px;   
+    color: #9AAABE;
+  }
+
+  .btnGerar:hover {
+    cursor: pointer;
+  }
+  
+  /************************************** Fim CSS Botão ************************************************/
+
+.div-texto1{
+    width: 260px;
+    margin-right: 25px;
+    display: inline-block;
+    float: right;
+}
+
+.div-texto2{
+    width: 550px;
+    display: inline-block;
+}
+.div-texto3{
+    width: 900px;
+}
+.div-texto4{
+    width: 900px;
+}
+
+.texto1 {
     background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
     color: #9AAABE;
-    height: 100px;
+    height: 40px;
+    resize: none;
+    display: inline;
 }
-.texto2{
+
+.texto2 {
     background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
     color: #9AAABE;
-    height: 100px;
+    height: 80px;
+    resize: none;
 }
-.texto3{
+
+.texto3 {
     background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
     color: #9AAABE;
-    height: 200px;
+    height: 80px;
+    resize: none;
 }
-.copyButton{
-    
+
+.texto4 {
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #9AAABE;
+    height: 240px;
+    resize: none;
 }
+
+.copyButton {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #9AAABE;
+    padding: 0 12px;
+}
+.dxc-poisition-right{
+    float: right;
+}
+
+

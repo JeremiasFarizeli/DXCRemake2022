@@ -5,9 +5,9 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -16,45 +16,7 @@
         <div>
             <header>
                 <div id="dxc-card-menu">
-                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#">Logo</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown">INCIDENTS</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Link</a></li>
-                                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                                            <li><a class="dropdown-item" href="#">A third link</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WORK
-                                            ORDER</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Link</a></li>
-                                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                                            <li><a class="dropdown-item" href="#">A third link</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown">Dropdown</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Link</a></li>
-                                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                                            <li><a class="dropdown-item" href="#">A third link</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
+
                 </div>
             </header>
         </div>
@@ -64,24 +26,77 @@
                 <div class="dxc-card-left">
                     <aside>
                         <div>
-                            <input type="text" placeholder="Nome do usuário">
-                            <input type="text" placeholder="Numero do chamado">
-                            <input type="text" placeholder="Motivo">
-                            <input type="text" placeholder="etc">
-                            <input type="text" placeholder="etc">
-                            <input type="text" placeholder="etc">
+
+                            <label class="dxc-label2" for="">USUÁRIO NÃO ENCONTRADO:</label><br>
+
+                            <label class="dxc-label" for="">Agendado para:</label>
+                            <input class="dxc-input-date" id="dxc-input-date" type="date">
+
+                            <label class="dxc-label">Hora inicial:</label>
+                            <input class="dxc-input-hora" id="dxc-input-hora-inicio" type="text" placeholder="00h" name="dxc-input-hora">
+
+                            <label class="dxc-label">Hora final:</label>
+                            <input class="dxc-input-hora" id="dxc-input-hora-final" type="text" placeholder="00h">
+
+
+                            <select class="dxc-select-tentativas" id="dxc-select-tentativas" onclick="dxcSelectTentativas()">
+                                <option value="0"> * Selecione Tentativa * </option>
+                                <option value="1º">1º Tentativa</option>
+                                <option value="2º">2º Tentativa</option>
+                                <option value="3º">3º Tentativa</option>
+                            </select>
+
+                            <br><br>
+
+                            <label class="dxc-label" for="">Ramal: </label>
+                            <input class="dxc-input-text-phones" id="dxc-input-text-ramal" type="text" placeholder="(area) Numero" min="9"
+                                max="11"> <br>
+
+                            <label class="dxc-label" for="">Celular: </label>
+                            <input class="dxc-input-text-phones" id="dxc-input-text-celular" type="text" placeholder="(area) Numero" min="9"
+                                max="11">
+
+                            <br><br>
+                            <input class="dxc-input-text" id="dxc-input-userEmail" type="text" placeholder="E-mail do usuário">
+                            <input class="dxc-input-text" id="dxc-input-userName" type="text" placeholder="Nome do usuário">
+                            <input class="dxc-input-text" id="numChamado" type="text" placeholder="Numero do chamado">
+
+                            <div>
+                                <div class="dxc-poisition-right">
+                                    <button class="btnGerar" onclick="selectTentativas(); dxcFunctionUserNotFound()">GERAR</button>
+                                </div>
+
+                            </div>
+
                         </div>
                     </aside>
                 </div>
-                <div class="dxc-card-right">
+                <div class="dxc-card-right ">
                     <aside>
                         <div>
-                            <label for=""></label> <label for="" class="copyButton">Copiar</label>
-                            <textarea class="texto1" name="" id="" cols="30" rows="10">Texto Assunto do E-mail</textarea>
-                            <label for="">Texto Assunto do E-mail</label> <label for="" class="copyButton">Copiar</label>
-                            <textarea class="texto2" name="" id="" cols="30" rows="10"></textarea>
-                            <label for="">Texto Assunto do E-mail</label> <label for="" class="copyButton">Copiar</label>
-                            <textarea class="texto3" name="" id="" cols="30" rows="10"></textarea>
+
+                            <div class="div-texto2 ">
+                                <label class="copyButton">Copiar</label>
+                                <textarea class="texto2" name="" id="" cols="30" rows="10">  Padronização campo anotações</textarea>
+                            </div>
+
+                            <div class="div-texto1">
+                                <label class="copyButton">Copiar</label>
+                                <textarea class="texto1" name="" id="" cols="30" rows="10">  Padronização campo anotações</textarea>
+                            </div>
+
+
+                            <div class="div-texto3">
+                                <label class="copyButton">Copiar</label>
+                                <textarea class="texto3" name="" id="" cols="30" rows="10">  Texto Assunto do E-mail</textarea>
+                            </div>
+                            
+                            <div class="div-texto4">
+                                <label class="copyButton">Copiar</label>
+                                <textarea class="texto4" name="" id="" cols="30" rows="10">  E-mail padrão</textarea>
+                            </div>
+                           
+
                         </div>
                     </aside>
                 </div>
@@ -90,7 +105,7 @@
         <!-- Inicio do footer -->
         <div>
             <footer>
-                <div class="container-fluid mt-3">
+                <div>
                     <h3>Navbar With Dropdown</h3>
                     <p>This example adds a dropdown menu in the navbar.</p>
                 </div>
@@ -101,6 +116,7 @@
 
     </div>
 
+    
 
 </body>
 
