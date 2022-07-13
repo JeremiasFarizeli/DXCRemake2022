@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    ;
 }
 
 html body {
@@ -16,14 +15,9 @@ html body {
 }
 
 /************************************** Inicio CSS Menu ************************************************/
-#dxc-card-menu {
-    background-color:   #696969 /*#5f249f*/;
-    padding: 0 1%;
-    height: 80px;
-    border-radius: 20px;
-    margin-bottom: 2px;
-    width: 1458px; /* Soma da width dos cards .dxc-card-left e .dxc-card-right */
-}
+
+
+
 
 
 
@@ -37,7 +31,8 @@ html body {
 }
 
 .dxc-card-left {
-    background-color: #B0C4DE  /*#8a2be2*/;
+    background-color: #B0C4DE; /* #8a2be2*/
+    /*background-image: url(../imagem/1623243631355.jpg);  */
     border-radius: 20px;
     padding: 10px;
     display: inline-block;

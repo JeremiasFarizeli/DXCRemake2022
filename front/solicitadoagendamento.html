@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../menu.css">
+        <link rel="stylesheet" href="../css/style.css">
     
+    
+
 </head>
 
 <body>
@@ -19,8 +22,55 @@
         <!-- Inicio do Menu -->
         <div>
             <header>
-                <div id="dxc-card-menu">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="">Home</a></li>
 
+                            <li><a href="">Incidents</a>
+                                <div class="sub-menu-1">
+                                    <ul>
+                                        <li class="hover-sub"><a href="">Atualizar</a>
+                                            <div class="sub-menu-2">
+                                                <ul>
+                                                    <li class="hover-sub"><a href="">Agendamentos</a>
+                                                        <div class="sub-menu-3">
+                                                            <ul>
+                                                                <li><a href="">3 Strikes</a></li>
+                                                                <li><a href="">Solicitado</a></li>
+                                                                <li><a href="">Tipo 3</a></li>
+                                                                <li><a href="">BKP de Dados</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li><a href="">Falha Física</a>
+                                                        <div class="sub-menu-3">
+                                                            <ul>
+                                                                <li><a href="">PcaaS Garantia C/ B&F</a></li>
+                                                                <li><a href="">PcaaS Garantia S/ B&F</a></li>
+                                                                <li><a href="">Bateria C/ Garantia</a></li>
+                                                                <li><a href="">Bateria S/ Garantia</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li><a href="">Outros</a></li>
+                                                </ul>
+                                            </div>
+
+                                        </li>
+                                        <li><a href="">Encerrar</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li><a href="">Work Order</a></li>
+                            <li><a href="">Links DXC</a></li>
+                            <li><a href="">Links Vale</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
         </div>
@@ -52,10 +102,10 @@
                             <input class="dxc-input-text" id="dxc-input-userName" type="text"
                                 placeholder="Nome do usuário">
 
-                                <br><br>
+                            <br><br>
 
                             <input class="dxc-input-text" id="numChamado" type="text" placeholder="Numero do chamado">
-                            
+
                             <br><br>
 
                             <!-- DIV BOTÃO -->
@@ -70,14 +120,13 @@
                         </div>
                     </aside>
                 </div>
-                <div class="dxc-card-right ">
+                <div class="dxc-card-right">
                     <aside>
                         <div>
 
                             <div class="div-texto2 ">
                                 <label class="dxc-label3"> Padronização campo anotações:</label>
-                                <label class="copyButton"
-                                    onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
+                                <label class="copyButton" onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
                                 <textarea class="texto2" name="" id="dxc-text-anotacaoes" cols="30"
                                     rows="10"></textarea>
                             </div>
@@ -114,7 +163,6 @@
         <div>
             <footer>
                 <div>
-                    <h3>Navbar With Dropdown</h3>
                     <p>This example adds a dropdown menu in the navbar.</p>
                 </div>
             </footer>

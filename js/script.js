@@ -65,13 +65,13 @@ function dxcFunctionUserNotFound() {
     let codEquipamento = "LOCAL1EMAIL"
     op = document.getElementById("dxc-select-tentativas").value;
     switch (op) {
-        case '1º':
+        case '1ª':
             codEquipamento = "LOCAL1EMAIL"
             break;
-        case '2º':
+        case '2ª':
             codEquipamento = "LOCAL2EMAIL"
             break;
-        case '3º':
+        case '3ª':
             codEquipamento = "LOCAL3EMAIL"
             break;
     }

@@ -63,7 +63,7 @@ function dxcFunctionAgendamento() {
     // FORMANDO AS STRINGS
     let anotacoes = `#Agendado
 
-Atendimento agendado para ${dataFormatada} entre ${horaInicio} e ${horaFinal}.`
+Atendimento agendado para ${dataFormatada} entre ${horaInicio}h e ${horaFinal}h.`
 
     // **********************************************************************
     let emailPadrao = 
@@ -71,7 +71,7 @@ Atendimento agendado para ${dataFormatada} entre ${horaInicio} e ${horaFinal}.`
 
 Recebemos o seu chamado: ${numChamado}. Conforme solicitado estamos programando o atendimento do chamado para ${dataFormatada}.
 
-Horário previsto para contato será entre ${horaInicio} e ${horaFinal}.
+Horário previsto para contato será entre ${horaInicio}h e ${horaFinal}h.
 Agradecemos a sua compreensão.
 
 Atenciosamente
