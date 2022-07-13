@@ -13,14 +13,14 @@ var interval = setInterval(() => {
 
 
 // INICIO BLOCO DE FUNÇÕES PARA COPIAR TEXTOS PÁGINA USUÁRIO NÃO ENCONTRADO
-function copiarTextoUserNaoEncontradoAnotacoes() {
+function copiarTextoAgendamentoAnotacoes() {
     let textoCopiado = document.getElementById("dxc-text-anotacaoes");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
 
 }
-function copiarTextoUserNaocodEquipamento() {
+function copiarTextocodEquipamento() {
     let textoCopiado = document.getElementById("dxc-text-codEquipamento");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
@@ -42,16 +42,12 @@ function copiarTextoEmailPadrao() {
 
 
 
-
-//  FUNÇÃO BOTÃO GERAR PAGINA USER NOT FOUND
-function dxcFunctionUserNotFound() {
+//  FUNÇÃO BOTÃO GERAR PAGINA
+function dxcFunctionAgendamento() {
     
     // COLETA DADOS DA PAGINA USUÁRIO NÃO ENCONTRADO
     let horaInicio = document.getElementById("dxc-input-hora-inicio").value
     let horaFinal = document.getElementById("dxc-input-hora-final").value
-    let ramal = document.getElementById("dxc-input-text-ramal").value
-    let celular = document.getElementById("dxc-input-text-celular").value
-    let email = document.getElementById("dxc-input-userEmail").value
     let userName = document.getElementById("dxc-input-userName").value
     let numChamado = document.getElementById("numChamado").value
 
@@ -62,43 +58,28 @@ function dxcFunctionUserNotFound() {
     let dataFormatada = dia2+"/"+mes2;
 
     // CODIGOS DO CAMPO CODIGO DO EQUIPAMENTO
-    let codEquipamento = "LOCAL1EMAIL"
-    op = document.getElementById("dxc-select-tentativas").value;
-    switch (op) {
-        case '1º':
-            codEquipamento = "LOCAL1EMAIL"
-            break;
-        case '2º':
-            codEquipamento = "LOCAL2EMAIL"
-            break;
-        case '3º':
-            codEquipamento = "LOCAL3EMAIL"
-            break;
-    }
+    let codEquipamento = `AGENDADO PARA ${dataFormatada}`
 
     // FORMANDO AS STRINGS
-    let anotacoes = `#3Strikes
-${op} Tentativa de contato com usuário feita em ${dataHora} Via teams e telefone. Novo contato previsto para ${dataFormatada} - 09h.`
+    let anotacoes = `#Agendado
+
+Atendimento agendado para ${dataFormatada} entre ${horaInicio} e ${horaFinal}.`
 
     // **********************************************************************
     let emailPadrao = 
-`Bom dia/Boa tarde!
+`Sr(a) ${userName},
 
-Sr(a) ${userName},
+Recebemos o seu chamado: ${numChamado}. Conforme solicitado estamos programando o atendimento do chamado para ${dataFormatada}.
 
-Informo que tentamos entrar em contato através dos telefones ${ramal}, ${celular} e pelo Teams ${email}, mas não foi possível.
+Horário previsto para contato será entre ${horaInicio} e ${horaFinal}.
+Agradecemos a sua compreensão.
 
-Tentaremos novamente o contato:
-Dia: 13/07
-Horário: Entre ${horaInicio}h e ${horaFinal}h
-
-Desde já agradecemos
-
-Equipe DXC 
+Atenciosamente
+Equipe DXC.Technology
 `
     // **********************************************************************
 
-    let assuntoEmail = `IMPORTANTE - Para o atendimento ao seu chamado ${numChamado} - ${op} Tentativa de contato.`
+    let assuntoEmail = `Agendamento de atendimento do chamado ${numChamado}.`
 
     // **********************************************************************
     
@@ -116,22 +97,7 @@ Equipe DXC
     dataAgendamento = document.getElementById("dxc-input-date").value = ""
     horaInicio = document.getElementById("dxc-input-hora-inicio").value = ""
     horaFinal = document.getElementById("dxc-input-hora-final").value = ""
-    ramal = document.getElementById("dxc-input-text-ramal").value = ""
-    celular = document.getElementById("dxc-input-text-celular").value = ""
-    email = document.getElementById("dxc-input-userEmail").value = ""
     userName = document.getElementById("dxc-input-userName").value = ""
     numChamado = document.getElementById("numChamado").value = ""
 }
-//  FIM DA FUNÇÃO BOTÃO GERAR PAGINA USER NOT FOUND
-
-
-
-
-
-
-
-
-
-
-
-
+//  FIM DA FUNÇÃO BOTÃO GERAR PAGINA
