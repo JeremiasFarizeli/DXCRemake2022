@@ -17,7 +17,7 @@ html body {
 
 /************************************** Inicio CSS Menu ************************************************/
 #dxc-card-menu {
-    background-color: #5f249f;
+    background-color:   #696969 /*#5f249f*/;
     padding: 0 1%;
     height: 80px;
     border-radius: 20px;
@@ -28,23 +28,16 @@ html body {
 
 
 
-
-
-
-
-
-
 /************************************** Fim CSS Menu ************************************************/
 
 #dxc-container-centro {
     padding: 0 1%;
     align-items: center;
     justify-content: center;
-    border: 3px solid red;
 }
 
 .dxc-card-left {
-    background-color: #8a2be2;
+    background-color: #B0C4DE  /*#8a2be2*/;
     border-radius: 20px;
     padding: 10px;
     display: inline-block;
@@ -54,11 +47,11 @@ html body {
 }
 
 .dxc-card-right {
-    background-color: #8a2be2;
+    background-color: #B0C4DE;
     border-radius: 20px;
     border: 1px solid;
     margin-left: 10px;
-    color: #9AAABE;
+    color: #c8d2df;
     padding: 10px;
     display: inline-block;
     position: absolute;
@@ -68,11 +61,11 @@ html body {
 
 .dxc-input-text {
     height: 40px;
-    background-color: #1B2531;
+    background-color: #2d2d2d /*#1B2531*/;
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
-    color: #9AAABE;
+    color: #c8d2df;
     padding: 0 20px;
     font-size: 18px;
     margin-top: 10px;
@@ -80,10 +73,10 @@ html body {
 
 .dxc-input-text-phones{
     height: 40px;
-    background-color: #1B2531;
+    background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
-    color: #9AAABE;
+    color: #c8d2df;
     padding: 0 20px;
     font-size: 18px;
     margin-top: 10px;
@@ -91,45 +84,45 @@ html body {
 
 .dxc-input-date {
     height: 40px;
-    background-color: #1B2531;
+    background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 0 20px;
     font-size: 18px;
     margin-top: 10px;
-    color: #9AAABE;
+    color: #c8d2df;
 }
 
 .dxc-input-hora {
     height: 40px;
     width: 90px;
-    background-color: #1B2531;
+    background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 5px 20px;
     font-size: 18px;
     margin-top: 10px;
-    color: #9AAABE;
+    color: #c8d2df;
 }
 
 .dxc-select-tentativas {
     height: 40px;
     width: 250px;
-    background-color: #1B2531;
+    background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 0 20px;
     font-size: 18px;
     margin-top: 10px;
-    color: #9AAABE;
+    color: #c8d2df;
 }
 
 .dxc-label {
     height: 40px;
-    background-color: #1B2531;
+    background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
-    color: #9AAABE;
+    color: #c8d2df;
     padding: 5px 20px;
     font-size: 18px;
     margin-top: 10px;
@@ -141,10 +134,16 @@ html body {
     background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
-    color: #9AAABE;
+    color: #c8d2df;
     padding: 5px 20px;
     font-size: 18px;
     margin-top: 10px;
+}
+
+.dxc-label3{
+    border-radius: 8px;
+    color: #384459;
+    font-size: 18px;
 }
 
 .dxc-input-text-cardRight{
@@ -153,7 +152,7 @@ html body {
     background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
-    color: #9AAABE;
+    color: #c8d2df;
     padding: 5px 20px;
     font-size: 18px;
     margin-bottom: 15px;
@@ -172,8 +171,14 @@ html body {
 
   .btnGerar:hover {
     cursor: pointer;
+    color: #fff;
+    border-color: #269abc;
   }
-  
+
+  .btnGerar-info:hover, .btnGerar-info:focus{
+    color: #fff;
+  }
+
   /************************************** Fim CSS Botão ************************************************/
 
 .div-texto1{
@@ -184,11 +189,11 @@ html body {
 }
 
 .div-texto2{
-    width: 550px;
+    width: 600px;
     display: inline-block;
 }
 .div-texto3{
-    width: 900px;
+    width: 800px;
 }
 .div-texto4{
     width: 900px;
@@ -199,7 +204,7 @@ html body {
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
-    color: #9AAABE;
+    color: #c8d2df;
     height: 40px;
     resize: none;
     display: inline;
@@ -210,7 +215,7 @@ html body {
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
-    color: #9AAABE;
+    color: #c8d2df;
     height: 80px;
     resize: none;
 }
@@ -220,8 +225,8 @@ html body {
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
-    color: #9AAABE;
-    height: 80px;
+    color: #c8d2df;
+    height: 60px;
     resize: none;
 }
 
@@ -230,8 +235,8 @@ html body {
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
-    color: #9AAABE;
-    height: 240px;
+    color: #c8d2df;
+    height: 260px;
     resize: none;
 }
 
@@ -242,7 +247,7 @@ html body {
     background-color: #2d2d2d;
     border: 1px solid #384459;
     border-radius: 8px;
-    color: #9AAABE;
+    color: #c8d2df;
     padding: 0 12px;
 }
 .dxc-poisition-right{

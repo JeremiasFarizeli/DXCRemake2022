@@ -46,14 +46,19 @@ function copiarTextoEmailPadrao() {
 //  FUNÇÃO BOTÃO GERAR PAGINA USER NOT FOUND
 function dxcFunctionUserNotFound() {
     // COLETA DADOS DA PAGINA USUÁRIO NÃO ENCONTRADO
-    let dataAgendamento = document.getElementById("dxc-input-date").value;
     let horaInicio = document.getElementById("dxc-input-hora-inicio").value
     let horaFinal = document.getElementById("dxc-input-hora-final").value
     let ramal = document.getElementById("dxc-input-text-ramal").value
+    let celular = document.getElementById("dxc-input-text-celular").value
     let email = document.getElementById("dxc-input-userEmail").value
     let userName = document.getElementById("dxc-input-userName").value
     let numChamado = document.getElementById("numChamado").value
 
+    let dataAgendamento = document.getElementById("dxc-input-date").value;
+    let str2 = dataAgendamento; 
+    let mes2 = str2.slice(5, 7);
+    let dia2 = str2.slice(8, 10);
+    let dataFormatada = dia2+"/"+mes2;  //+"/"+ano2
 
     // CODIGOS DO CAMPO CODIGO DO EQUIPAMENTO
     let codEquipamento = "LOCAL1EMAIL"
@@ -71,30 +76,33 @@ function dxcFunctionUserNotFound() {
     }
 
 
-
-
-
 //  provisório
-document.getElementById("dxc-textarea-emailPadrao").value = 
+
+
+    // FORMANDO AS STRINGS
+    let anotacoes = `#3Strikes
+${op} Tentativa de contato com usuário feita em ${dataHora} Via teams e telefone. Novo contato previsto para ${dataFormatada} - 09h.`
+
+    // **********************************************************************
+    let emailPadrao = 
 `Bom dia/Boa tarde!
 
-Sr(a) Wellington Rezende,
+Sr(a) ${userName},
 
-Informo que tentamos entrar em contato através dos telefones +55 (027) 3333-27997092530 / 27988146507 - 27997092530 / 27988146507 e pelo Teams Wellington.Rezende@vale.com, mas não foi possível.
+Informo que tentamos entrar em contato através dos telefones ${ramal}, ${celular} e pelo Teams ${email}, mas não foi possível.
 
 Tentaremos novamente o contato:
 Dia: 13/07
-Horário: Entre 08 e 09
+Horário: Entre ${horaInicio}h e ${horaFinal}h
 
 Desde já agradecemos
 
 Equipe DXC 
 `
+    // **********************************************************************
 
+    let assuntoEmail = `IMPORTANTE - Para o atendimento ao seu chamado ${numChamado} - ${op} Tentativa de contato.`
 
-    // FORMANDO AS STRINGS
-    let anotacoes = `#3Strikes
-1º Tentativa de contato com usuário feita em 12/07 às 12:54 Via teams e telefone. Novo contato previsto para 13/07- 09h.`
 
 
     //TEXTO PARA CODIGO DO EQUIPAMENTO: 
@@ -104,11 +112,21 @@ Equipe DXC
     document.getElementById("dxc-text-anotacaoes").value = anotacoes
 
     //CAMPO ASSUNTO DO EMAIL 
-    //document.getElementById("userNotFoundTextoEmail").innerHTML = (req);
+    document.getElementById("dxc-text-assuntoEmail").value = assuntoEmail   
 
     //TEXTO CORPO DO EMAIL
-    //document.getElementById("userNotFoundTexto").innerHTML = (texto);
+    document.getElementById("dxc-textarea-emailPadrao").value = emailPadrao
 
+
+    // ZERANDO OS CAMPOS.
+    dataAgendamento = document.getElementById("dxc-input-date").value = ""
+    horaInicio = document.getElementById("dxc-input-hora-inicio").value = ""
+    horaFinal = document.getElementById("dxc-input-hora-final").value = ""
+    ramal = document.getElementById("dxc-input-text-ramal").value = ""
+    celular = document.getElementById("dxc-input-text-celular").value = ""
+    email = document.getElementById("dxc-input-userEmail").value = ""
+    userName = document.getElementById("dxc-input-userName").value = ""
+    numChamado = document.getElementById("numChamado").value = ""
 
 
 }
