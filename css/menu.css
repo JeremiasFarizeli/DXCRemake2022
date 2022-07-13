@@ -1,0 +1,53 @@
+.contemMenu{
+    padding-top: 0%;
+    height: 40px;
+    background-color: #222;
+    width: 100%;
+    padding: 0px;
+}
+
+.contemMenu ul{
+    list-style: none;
+    position: relative;
+    /*padding: 15px;*/
+    height: 40px;
+    margin: 0px;
+}
+.contemMenu ul li{
+    width: 200px;
+    float: left;
+    height: 40px;
+}
+.contemMenu a{
+    /*padding: 15px;*/
+    display: block;
+    text-decoration: none;
+    text-align: center;  /*Alinhar o text quanto a margem lateral*/
+    background-color: #222;
+    color: #fff;
+    height: 40px;
+    line-height: 40px; /*Alinhar o text quanto a margem superior*/
+}
+.contemMenu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+.contemMenu ul li:hover ul{
+    visibility: visible;
+}
+.contemMenu a:hover{
+    background-color: darkgray;
+}
+.contemMenu ul ul li{
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
+#menu{
+    background-color: #222;
+    margin: 10%;
+    margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
