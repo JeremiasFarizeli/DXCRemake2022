@@ -10,17 +10,22 @@ nav{
 nav ul{
     display: inline-flex;
     list-style: none;
-    
+    margin: 0;
 }
 
 nav ul li{
     width: 130px;
     margin: 15px;
-    padding: 15px;
+    padding: 1px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 0;
 }
 nav ul li a{
     text-decoration: none;
     color: white;
+    padding: 10px;
+    
     
 }
 
@@ -68,7 +73,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     margin-top: -48px;
     background-color: #2d2d2d;
     border-radius: 8px;
-    margin-left: 120px;
+    margin-left: 130px;
     
 }
 .hover-sub:hover .sub-menu-2 ul{
@@ -97,7 +102,7 @@ nav ul li ul li ul li:hover .sub-menu-3{
     margin-top: -48px;
     background-color: #2d2d2d;
     border-radius: 8px;
-    margin-left: 120px;
+    margin-left: 130px;
 }
 .hover-sub:hover .sub-menu-3 ul{
     display: block;

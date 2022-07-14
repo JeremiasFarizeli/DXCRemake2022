@@ -2,7 +2,7 @@
 
 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
 
                         <li><a href="">Incidents</a>
                             <div class="sub-menu-1">
@@ -35,7 +35,7 @@
                                         </div>
 
                                     </li>
-                                    <li><a href="">Encerrar</a>
+                                    <li><a href="encerrarincident.php">Encerrar</a>
 
                                     </li>
                                 </ul>

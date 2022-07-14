@@ -251,3 +251,95 @@ html body {
 }
 
 
+
+
+ /************************************** Inicio CSS pagina Encerrar incident ************************************************/
+
+.dxc-label4{
+    border-radius: 8px;
+    color: #384459;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+#dxc-textarea-causaraiz{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 70px;
+    resize: none;
+}
+
+#dxc-textarea-acaoimediata{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 70px;
+    resize: none;
+}
+
+#dxc-textarea-acaocorretiva{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 70px;
+    resize: none;
+}
+#dxc-input-teste-encerrar-incident{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 380px;
+    color: #c8d2df;
+    height: 40px;
+    resize: none; 
+}
+
+#dxc-input-analista-encerrar-incident{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 380px;
+    color: #c8d2df;
+    height: 40px;
+    resize: none; 
+}
+
+#dxc-textarea-encerramento{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 500px;
+    resize: none;
+}
+
+
+#dxc-textarea-observacao{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    margin-top: 2px;
+    border-radius: 8px;
+    width: 380px;
+    color: #c8d2df;
+    height: 70px;
+    resize: none; 
+}
+.dxc-float-botao-gerar{
+    float: right;
+    margin-top: -12px;
+}
+
+
+
+
+
+  /************************************** Fim CSS pagina Encerrar incident ************************************************/

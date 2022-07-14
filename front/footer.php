@@ -3,8 +3,8 @@
         <div>
             <footer>
                 <div>
-                    <h3>Navbar With Dropdown</h3>
-                    <p>This example adds a dropdown menu in the navbar.</p>
+                    <h3>DXC Technology</h3>
+                    <p>We deliver the mission critical IT services that move the world</p>
                 </div>
             </footer>
         </div>
