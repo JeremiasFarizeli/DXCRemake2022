@@ -1,29 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    
-</head>
 
-<body>
+<?php 
+    include("header.php");
+?>
 
-    <script src="../js/scriptAgentipo3.js"></script>
 
-    <div id="dxc-container-centro">
-        <!-- Inicio do Menu -->
-        <div>
-            <header>
-                <div id="dxc-card-menu">
+<script src="../js/scriptAgentipo3.js"></script>
 
-                </div>
-            </header>
-        </div>
         <!-- Inicio do container central -->
         <div>
             <section>
@@ -82,29 +65,13 @@
 
 
 
-
-
                         </div>
                     </aside>
                 </div>
             </section>
         </div>
-        <!-- Inicio do footer -->
-        <div>
-            <footer>
-                <div>
-                    <h3>Navbar With Dropdown</h3>
-                    <p>This example adds a dropdown menu in the navbar.</p>
-                </div>
-            </footer>
-        </div>
 
 
-
-    </div>
-
-
-
-</body>
-
-</html>
+<?php 
+    include("footer.php");
+?>

@@ -37,6 +37,7 @@ html body {
     padding: 10px;
     display: inline-block;
     position: relative;
+    z-index: 0;
     width: 500px;
     height: 610px;
 }
@@ -50,6 +51,7 @@ html body {
     padding: 10px;
     display: inline-block;
     position: absolute;
+    z-index: 0;
     width: 950px;
     height: 610px;
 }

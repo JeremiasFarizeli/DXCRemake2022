@@ -1,79 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+    include("header.php");
+?>
 
-<head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../menu.css">
-        <link rel="stylesheet" href="../css/style.css">
-    
-    
 
-</head>
+<script src="../js/scriptagendamento.js"></script>
 
-<body>
-
-    <script src="../js/scriptsolicitouagendamento.js"></script>
-
-    <div id="dxc-container-centro">
-        <!-- Inicio do Menu -->
-        <div>
-            <header>
-                <div>
-                    <nav>
-                        <ul>
-                            <li><a href="">Home</a></li>
-
-                            <li><a href="">Incidents</a>
-                                <div class="sub-menu-1">
-                                    <ul>
-                                        <li class="hover-sub"><a href="">Atualizar</a>
-                                            <div class="sub-menu-2">
-                                                <ul>
-                                                    <li class="hover-sub"><a href="">Agendamentos</a>
-                                                        <div class="sub-menu-3">
-                                                            <ul>
-                                                                <li><a href="">3 Strikes</a></li>
-                                                                <li><a href="">Solicitado</a></li>
-                                                                <li><a href="">Tipo 3</a></li>
-                                                                <li><a href="">BKP de Dados</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                    <li><a href="">Falha Física</a>
-                                                        <div class="sub-menu-3">
-                                                            <ul>
-                                                                <li><a href="">PcaaS Garantia C/ B&F</a></li>
-                                                                <li><a href="">PcaaS Garantia S/ B&F</a></li>
-                                                                <li><a href="">Bateria C/ Garantia</a></li>
-                                                                <li><a href="">Bateria S/ Garantia</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                    <li><a href="">Outros</a></li>
-                                                </ul>
-                                            </div>
-
-                                        </li>
-                                        <li><a href="">Encerrar</a>
-
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </li>
-
-                            <li><a href="">Work Order</a></li>
-                            <li><a href="">Links DXC</a></li>
-                            <li><a href="">Links Vale</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-        </div>
         <!-- Inicio do container central -->
         <div>
             <section>
@@ -159,21 +90,11 @@
                 </div>
             </section>
         </div>
+
+
+
+
         <!-- Inicio do footer -->
-        <div>
-            <footer>
-                <div>
-                    <p>This example adds a dropdown menu in the navbar.</p>
-                </div>
-            </footer>
-        </div>
-
-
-
-    </div>
-
-
-
-</body>
-
-</html>
+<?php 
+    include("footer.php");
+?>
