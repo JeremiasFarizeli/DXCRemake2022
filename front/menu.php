@@ -35,8 +35,14 @@
                         </div>
 
                     </li>
-                    <li><a href="encerrarincident.php">Encerrar</a>
-
+                    <li class="hover-sub"><a href="encerrarincident.php">Encerrar</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="incidentResolved.php">Resolved</a></li>
+                                <li><a href="">Agendamento não cumprido</a></li>
+                                <li><a href="">3 Strikes</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>

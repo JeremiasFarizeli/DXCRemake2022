@@ -11,6 +11,26 @@ var interval = setInterval(() => {
 }, 1000);
 // Fim do Bloco de codigo para exibir data e hora atualizados
 
+//variáveis globais:
+
+let horaSomada
+
+
+function setHoraFinal(){
+    let horaRecebida = document.getElementById("dxc-input-hora-inicio").value
+    let horaSplit = horaRecebida.split(":")
+    let hora = horaSplit["0"] 
+    let minuto = horaSplit["1"]
+    horaSomada = 0
+
+
+    let horaInt = parseInt(horaSplit["0"]) + 1
+
+    horaSomada =  `${horaInt}:${minuto}`
+    document.getElementById("dxc-input-hora-final").value = horaSomada
+}
+
+
 
 // INICIO BLOCO DE FUNÇÕES PARA COPIAR TEXTOS PÁGINA USUÁRIO NÃO ENCONTRADO
 function copiarTextoAgendamentoAnotacoes() {
@@ -63,7 +83,7 @@ function dxcFunctionAgendamento() {
     // FORMANDO AS STRINGS
     let anotacoes = `#Agendado
 
-Atendimento agendado para ${dataFormatada} entre ${horaInicio}h e ${horaFinal}h.`
+Atendimento agendado para ${dataFormatada} entre ${horaInicio} e ${horaSomada}`
 
     // **********************************************************************
     let emailPadrao = 
@@ -71,7 +91,7 @@ Atendimento agendado para ${dataFormatada} entre ${horaInicio}h e ${horaFinal}h.
 
 Recebemos o seu chamado: ${numChamado}. Conforme solicitado estamos programando o atendimento do chamado para ${dataFormatada}.
 
-Horário previsto para contato será entre ${horaInicio}h e ${horaFinal}h.
+Horário previsto para contato será entre ${horaInicio} e ${horaSomada}.
 Agradecemos a sua compreensão.
 
 Atenciosamente

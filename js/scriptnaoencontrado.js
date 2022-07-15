@@ -11,6 +11,23 @@ var interval = setInterval(() => {
 }, 1000);
 // Fim do Bloco de codigo para exibir data e hora atualizados
 
+//variáveis globais:
+
+let horaSomada
+
+
+function setHoraFinal(){
+    let horaRecebida = document.getElementById("dxc-input-hora-inicio").value
+    let horaSplit = horaRecebida.split(":")
+    let hora = horaSplit["0"] 
+    let minuto = horaSplit["1"]
+    horaSomada = 0
+
+    let horaInt = parseInt(horaSplit["0"]) + 1
+
+    horaSomada =  `${horaInt}:${minuto}`
+    document.getElementById("dxc-input-hora-final").value = horaSomada
+}
 
 // INICIO BLOCO DE FUNÇÕES PARA COPIAR TEXTOS PÁGINA USUÁRIO NÃO ENCONTRADO
 function copiarTextoUserNaoEncontradoAnotacoes() {
@@ -78,7 +95,7 @@ function dxcFunctionUserNotFound() {
 
     // FORMANDO AS STRINGS
     let anotacoes = `#3Strikes
-${op} Tentativa de contato com usuário feita em ${dataHora} Via teams e telefone. Novo contato previsto para ${dataFormatada} - 09h.`
+${op} Tentativa de contato com usuário feita em ${dataHora} Via teams e telefone. Novo contato previsto para ${dataFormatada} - ${horaSomada}.`
 
     // **********************************************************************
     let emailPadrao = 
@@ -90,7 +107,7 @@ Informo que tentamos entrar em contato através dos telefones ${ramal}, ${celula
 
 Tentaremos novamente o contato:
 Dia: 13/07
-Horário: Entre ${horaInicio}h e ${horaFinal}h
+Horário: Entre ${horaInicio} e ${horaSomada}
 
 Desde já agradecemos
 

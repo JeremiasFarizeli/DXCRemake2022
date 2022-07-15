@@ -13,18 +13,16 @@
                         <div>
 
                             <label class="dxc-label2" for="">USUÁRIO SOLICITOU AGENDAMENTO:</label><br>
-
                             <br><br>
-                            <label class="dxc-label" for="">Solicitado para:</label>
+
+                            
+                            <label class="dxc-label" for="">Agendado para:</label>
                             <input class="dxc-input-date" id="dxc-input-date" type="date">
 
-                            <br><br>
-                            <label class="dxc-label">Hora inicial:</label>
-                            <input class="dxc-input-hora" id="dxc-input-hora-inicio" type="text" placeholder="00h"
-                                name="dxc-input-hora">
-
-                            <label class="dxc-label">Hora final:</label>
-                            <input class="dxc-input-hora" id="dxc-input-hora-final" type="text" placeholder="00h">
+                            <label class="dxc-label">Horário entre:</label>
+                            <input class="dxc-input-hora" id="dxc-input-hora-inicio" onblur="setHoraFinal()" value="00:00" type="time" min="00:00" max="23:00" required>
+                            <label class="dxc-label">e</label>
+                            <input class="dxc-input-hora" id="dxc-input-hora-final" value="00:00" type="text" placeholder="00:00" disabled>
 
                             <br><br>
 

@@ -21,12 +21,10 @@
                             <label class="dxc-label" for="">Agendado para:</label>
                             <input class="dxc-input-date" id="dxc-input-date" type="date">
 
-                            <label class="dxc-label">Hora inicial:</label>
-                            <input class="dxc-input-hora" id="dxc-input-hora-inicio" type="text" placeholder="00h"
-                                name="dxc-input-hora">
-
-                            <label class="dxc-label">Hora final:</label>
-                            <input class="dxc-input-hora" id="dxc-input-hora-final" type="text" placeholder="00h">
+                            <label class="dxc-label">Horário entre:</label>
+                            <input class="dxc-input-hora" id="dxc-input-hora-inicio" onblur="setHoraFinal()" value="00:00" type="time" min="00:00" max="23:00" required>
+                            <label class="dxc-label">e</label>
+                            <input class="dxc-input-hora" id="dxc-input-hora-final" value="00:00" type="text" placeholder="00:00" disabled>
 
 
                             <select class="dxc-select-tentativas" id="dxc-select-tentativas"
@@ -52,16 +50,20 @@
                                 placeholder="Nome do usuário">
                             <input class="dxc-input-text" id="dxc-input-userEmail" type="text"
                                 placeholder="E-mail do usuário">
-                            <input class="dxc-input-text" id="numChamado" type="text" placeholder="Numero do chamado">
 
-                            <!-- DIV BOTÃO -->
                             <div>
+
+                                <input style="width: 300px;"   class="dxc-input-text" id="numChamado" type="text" placeholder="Numero do chamado">
+
                                 <div class="dxc-poisition-right">
-                                    <button class="btnGerar" class="btnGerar-info"
-                                        onclick="dxcFunctionUserNotFound()">GERAR</button>
+                                    <button class="btnGerar" class="btnGerar-info" onclick="dxcFunctionUserNotFound()">GERAR</button>
                                 </div>
 
+
                             </div>
+                            
+
+
 
                         </div>
                     </aside>
