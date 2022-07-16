@@ -51,7 +51,7 @@
                             <br><br>
                             <div style="width: 300px;"><br>
                                 <label class="dxc-label3">Código Equipamento:</label>
-                                <label class="copyButton" onclick="copiarTexto()">Copiar</label>
+                                <label class="copyButton" onclick="copiarTextocodEquipamento()">Copiar</label>
                                 <textarea class="texto1" name="" id="dxc-text-codEquipamento" cols="30"
                                     rows="10"></textarea>
                             </div>

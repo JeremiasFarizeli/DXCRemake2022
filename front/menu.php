@@ -35,7 +35,7 @@
                         </div>
 
                     </li>
-                    <li class="hover-sub"><a href="encerrarincident.php">Encerrar</a>
+                    <li class="hover-sub"><a href="">Encerrar</a>
                         <div class="sub-menu-2">
                             <ul>
                                 <li><a href="incidentResolved.php">Resolved</a></li>
