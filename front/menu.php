@@ -11,8 +11,8 @@
                                 <li class="hover-sub"><a href="">Agendamentos</a>
                                     <div class="sub-menu-3">
                                         <ul>
-                                            <li><a href="naoencontrado.php">3 Strikes</a></li>
-                                            <li><a href="agendamento.php">Solicitado</a></li>
+                                            <li><a href="3strikes.php">3 Strikes</a></li>
+                                            <li><a href="agendamento_solicitado.php">Solicitado</a></li>
                                             <li><a href="agendamentotipo3.php">Tipo 3</a></li>
                                             <li><a href="bkpDados.php">BKP de Dados</a></li>
                                             <li><a href="aguardandoRetirada.php">Aguardando Retirada</a></li>

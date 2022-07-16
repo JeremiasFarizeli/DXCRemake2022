@@ -4,6 +4,10 @@
 
 
 
+<div>
+    <img class="dxc-imagem-homePage" src="../imagem/dxcHome.jpg" alt="">
+</div>
+
 
 
 

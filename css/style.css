@@ -24,10 +24,22 @@ html body {
 
 /************************************** Fim CSS Menu ************************************************/
 
+/*  Largura total da página é 1360px  com margin auto
+    sendo 500px + 10px + 850px  
+*/
+
+.dxc-imagem-homePage{
+    width: 1360px;
+    height: 610px;
+    border-radius: 20px;
+}
+
+
 #dxc-container-centro {
-    padding: 0 1%;
     align-items: center;
     justify-content: center;
+    width: 1360px;
+    margin: auto;
 }
 
 .dxc-card-left {
@@ -52,7 +64,7 @@ html body {
     display: inline-block;
     position: absolute;
     z-index: 0;
-    width: 900px;
+    width: 850px;
     height: 610px;
 }
 
