@@ -23,8 +23,8 @@
                                 <li><a href="">Falha Física</a>
                                     <div class="sub-menu-3">
                                         <ul>
-                                            <li><a href="">PcaaS Garantia C/ B&F</a></li>
-                                            <li><a href="">PcaaS Garantia S/ B&F</a></li>
+                                            <li><a href="pcaasComBF.php">PcaaS Garantia C/ B&F</a></li>
+                                            <li><a href="pcaasSemBF.php">PcaaS Garantia S/ B&F</a></li>
                                             <li><a href="">Bateria C/ Garantia</a></li>
                                             <li><a href="">Bateria S/ Garantia</a></li>
                                         </ul>
