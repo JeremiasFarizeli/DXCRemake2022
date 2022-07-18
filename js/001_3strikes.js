@@ -23,24 +23,21 @@ function setHoraFinal(){
     let minuto = horaSplit["1"]
     horaSomada = 0
 
-
     let horaInt = parseInt(horaSplit["0"]) + 1
 
     horaSomada =  `${horaInt}:${minuto}`
     document.getElementById("dxc-input-hora-final").value = horaSomada
 }
 
-
-
 // INICIO BLOCO DE FUNÇÕES PARA COPIAR TEXTOS PÁGINA USUÁRIO NÃO ENCONTRADO
-function copiarTextoAgendamentoAnotacoes() {
+function copiarTextoUserNaoEncontradoAnotacoes() {
     let textoCopiado = document.getElementById("dxc-text-anotacaoes");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
 
 }
-function copiarTextocodEquipamento() {
+function copiarTextoUserNaocodEquipamento() {
     let textoCopiado = document.getElementById("dxc-text-codEquipamento");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
@@ -62,12 +59,16 @@ function copiarTextoEmailPadrao() {
 
 
 
-//  FUNÇÃO BOTÃO GERAR PAGINA
-function dxcFunctionAgendamento() {
+
+//  FUNÇÃO BOTÃO GERAR PAGINA USER NOT FOUND
+function dxcFunctionUserNotFound() {
     
     // COLETA DADOS DA PAGINA USUÁRIO NÃO ENCONTRADO
     let horaInicio = document.getElementById("dxc-input-hora-inicio").value
     let horaFinal = document.getElementById("dxc-input-hora-final").value
+    let ramal = document.getElementById("dxc-input-text-ramal").value
+    let celular = document.getElementById("dxc-input-text-celular").value
+    let email = document.getElementById("dxc-input-userEmail").value
     let userName = document.getElementById("dxc-input-userName").value
     let numChamado = document.getElementById("numChamado").value
 
@@ -78,28 +79,43 @@ function dxcFunctionAgendamento() {
     let dataFormatada = dia2+"/"+mes2;
 
     // CODIGOS DO CAMPO CODIGO DO EQUIPAMENTO
-    let codEquipamento = `AGENDADO PARA ${dataFormatada}`
+    let codEquipamento = "LOCAL1EMAIL"
+    op = document.getElementById("dxc-select-tentativas").value;
+    switch (op) {
+        case '1ª':
+            codEquipamento = "LOCAL1EMAIL"
+            break;
+        case '2ª':
+            codEquipamento = "LOCAL2EMAIL"
+            break;
+        case '3ª':
+            codEquipamento = "LOCAL3EMAIL"
+            break;
+    }
 
     // FORMANDO AS STRINGS
-    let anotacoes = `#Agendado
-
-Atendimento agendado para ${dataFormatada} entre ${horaInicio} e ${horaSomada}`
+    let anotacoes = `#3Strikes
+${op} Tentativa de contato com usuário feita em ${dataHora} Via teams e telefone. Novo contato previsto para ${dataFormatada} - ${horaSomada}.`
 
     // **********************************************************************
     let emailPadrao = 
-`Sr(a) ${userName},
+`Bom dia/Boa tarde!
 
-Recebemos o seu chamado: ${numChamado}. Conforme solicitado estamos programando o atendimento do chamado para ${dataFormatada}.
+Sr(a) ${userName},
 
-Horário previsto para contato será entre ${horaInicio} e ${horaSomada}.
-Agradecemos a sua compreensão.
+Informo que tentamos entrar em contato através dos telefones ${ramal}, ${celular} e pelo Teams ${email}, mas não foi possível.
 
-Atenciosamente
-Equipe DXC.Technology
+Tentaremos novamente o contato:
+Dia: ${dataFormatada}.
+Horário: Entre ${horaInicio} e ${horaSomada}
+
+Desde já agradecemos
+
+Equipe DXC 
 `
     // **********************************************************************
 
-    let assuntoEmail = `Agendamento de atendimento do chamado ${numChamado}.`
+    let assuntoEmail = `IMPORTANTE - Para o atendimento ao seu chamado ${numChamado} - ${op} Tentativa de contato.`
 
     // **********************************************************************
     
@@ -114,10 +130,25 @@ Equipe DXC.Technology
 
 
     // ZERANDO OS CAMPOS.
-    dataAgendamento = document.getElementById("dxc-input-date").value = ""
-    horaInicio = document.getElementById("dxc-input-hora-inicio").value = ""
+    //dataAgendamento = document.getElementById("dxc-input-date").value = ""
+    horaInicio = document.getElementById("dxc-input-hora-inicio").value = "00:00"
     horaFinal = document.getElementById("dxc-input-hora-final").value = ""
+    ramal = document.getElementById("dxc-input-text-ramal").value = ""
+    celular = document.getElementById("dxc-input-text-celular").value = ""
+    email = document.getElementById("dxc-input-userEmail").value = ""
     userName = document.getElementById("dxc-input-userName").value = ""
     numChamado = document.getElementById("numChamado").value = ""
 }
-//  FIM DA FUNÇÃO BOTÃO GERAR PAGINA
+//  FIM DA FUNÇÃO BOTÃO GERAR PAGINA USER NOT FOUND
+
+
+
+
+
+
+
+
+
+
+
+

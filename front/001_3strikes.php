@@ -5,7 +5,7 @@
 ?>
 
 
-<script src="../js/scriptnaoencontrado.js"></script>
+<script src="../js/001_3strikes.js"></script>
 
 
 

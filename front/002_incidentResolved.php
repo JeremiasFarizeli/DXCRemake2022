@@ -2,7 +2,7 @@
     include("header.php");
 ?>
 
-    <script src="../js/scriptencerramentoincident.js"></script>
+    <script src="../js/002_incidentResolved.js"></script>
 
 
         <!-- Inicio do container central -->

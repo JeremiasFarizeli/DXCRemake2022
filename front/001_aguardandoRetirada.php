@@ -5,7 +5,7 @@
 ?>
 
 
-<script src="../js/bkpDados.js"></script>
+<script src="../js/001_aguardandoRetirada.js"></script>
 
         <!-- Inicio do container central -->
         <div>
@@ -14,19 +14,17 @@
                     <aside>
                         <div>
 
-                            <label class="dxc-label2" for="">USUÁRIO EM PROCESSO DE BACKUP DE DADOS:</label><br>
+                            <label class="dxc-label2" for="">EQUIPAMENTO AGUARDANDO RETIRADA:</label><br>
 
                             <br><br>
                             <br><br>
 
                             <div>
-                                <label class="dxc-label" for="">Agendado para:</label>
-                                <input class="dxc-input-date" id="dxc-input-date" type="date">
                                 
-                                
+      
                                     <div class="dxc-poisition-right">
                                         <button class="btnGerar" class="btnGerar-info"
-                                            onclick="dxcFunctionBkpDados()">GERAR</button>
+                                            onclick="dxcFunctionAguardandoRetirada()">GERAR</button>
                                     </div> 
                      
                                 
@@ -39,7 +37,7 @@
                             <br><br><br><br><br><br>
                             
                             <div>
-                                <textarea class="texto2" cols="30" rows="10">O Incident pode ser agendado por até dois dias úteis para esse processo, ao termino o analista valida se usuário finalizou a copia dos dados e retoma o atendimento ou encerra o incident.</textarea>
+                                <textarea class="texto2" cols="30" rows="10">Feita a manutenção e usuário já ciente que deve retirar o equipamento.</textarea>
                             </div>
 
                         </div>
@@ -51,7 +49,7 @@
                             <br><br>
                             <div style="width: 300px;"><br>
                                 <label class="dxc-label3">Código Equipamento:</label>
-                                <label class="copyButton" onclick="copiarTextocodEquipamento()">Copiar</label>
+                                <label class="copyButton" onclick="copiarTexto()">Copiar</label>
                                 <textarea class="texto1" name="" id="dxc-text-codEquipamento" cols="30"
                                     rows="10"></textarea>
                             </div>
@@ -63,7 +61,7 @@
                                 <label class="dxc-label3"> Padronização campo anotações:</label>
                                 <label class="copyButton"
                                     onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
-                                <textarea class="texto2" name="" id="dxc-text-anotacaoes-bkpDados" cols="30" rows="10"></textarea>
+                                <textarea class="texto2" name="" id="dxc-text-anotacaoes-aguardandoRetirada" cols="30" rows="10"></textarea>
                             </div>
 
 

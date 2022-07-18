@@ -3,7 +3,7 @@
 ?>
 
 
-<script src="../js/scriptagendamento.js"></script>
+<script src="../js/001_agendamento_solicitado.js"></script>
 
         <!-- Inicio do container central -->
         <div>

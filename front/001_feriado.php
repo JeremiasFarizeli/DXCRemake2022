@@ -5,7 +5,7 @@
 ?>
 
 
-<script src="../js/pcaasComBF.js"></script>
+<script src="../js/001_feriado.js"></script>
 
         <!-- Inicio do container central -->
         <div>
@@ -14,30 +14,29 @@
                     <aside>
                         <div>
 
-                            <label class="dxc-label2" for="">PcaaS em garantia COM B&F:</label><br>
+                            <label class="dxc-label2" for="">SUSPEND DE FERIADO:</label><br>
 
                             <br><br>
                             <br><br>
 
                             <div>
-                            <label class="dxc-label2" for="">Dados do equipamento de emprestimo:</label><br>
-                                <label class="dxc-label" for="">Serial:</label>
-                                <input id="dxc-input-serial" type="text">
+                                <label class="dxc-label" for="">Agendado para:</label>
+                                <input class="dxc-input-date" id="dxc-input-date" type="date">
 
-                                <label class="dxc-label" for="">E-tag:</label>
-                                <input id="dxc-input-etag" type="text">
+                                <label class="dxc-label" for="">Qual feriado?:</label>
+                                <input id="dxc-input-feriado" type="text">
                             </div>
 
 
                             <div class="dxc-poisition-right">
-                                <button class="btnGerar" class="btnGerar-info" onclick="dxcFunction()">GERAR</button>
+                                <button class="btnGerar" class="btnGerar-info" onclick="dxcFunctionBkpDados()">GERAR</button>
                             </div> 
                      
             
                             <br><br><br><br><br><br>
                             
                             <div>
-                                <textarea class="texto2" cols="30" rows="10">PcaaS em Garantia - Situação de falha física onde foi necessário instalação de equipamento de emprestimo.</textarea>
+                                <textarea class="texto2" cols="30" rows="10">O Incident ficará em suspend até o próximo dia útil após o feriado e compensação se houver.</textarea>
                             </div>
 
                         </div>
@@ -61,7 +60,7 @@
                                 <label class="dxc-label3"> Padronização campo anotações:</label>
                                 <label class="copyButton"
                                     onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
-                                <textarea class="texto2" name="" id="dxc-text-anotacaoes-pcaasComBF" cols="30" rows="10"></textarea>
+                                <textarea class="texto2" name="" id="dxc-text-anotacaoes-bkpDados" cols="30" rows="10"></textarea>
                             </div>
 
 
