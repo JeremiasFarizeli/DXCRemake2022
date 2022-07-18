@@ -25,8 +25,8 @@
                                         <ul>
                                             <li><a href="pcaasComBF.php">PcaaS Garantia C/ B&F</a></li>
                                             <li><a href="pcaasSemBF.php">PcaaS Garantia S/ B&F</a></li>
-                                            <li><a href="">Bateria C/ Garantia</a></li>
-                                            <li><a href="">Bateria S/ Garantia</a></li>
+                                            <li><a href="index.php">Bateria C/ Garantia</a></li>
+                                            <li><a href="index.php">Bateria S/ Garantia</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -39,8 +39,8 @@
                         <div class="sub-menu-2">
                             <ul>
                                 <li><a href="incidentResolved.php">Resolved</a></li>
-                                <li><a href="">Agendamento não cumprido</a></li>
-                                <li><a href="">3 Strikes</a></li>
+                                <li><a href="index.php">Agendamento não cumprido</a></li>
+                                <li><a href="index.php">3 Strikes</a></li>
                             </ul>
                         </div>
                     </li>
