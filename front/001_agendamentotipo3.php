@@ -42,13 +42,7 @@
             <aside>
                 <div>
                     <br><br>
-                    <div class="div-texto2 ">
-                        <label class="dxc-label3"> Padronização campo anotações:</label>
-                        <label class="copyButton" onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
-                        <textarea class="texto2" name="" id="dxc-text-anotacaoes" cols="30" rows="10"></textarea>
-                    </div>
 
-                    <br><br>
 
                     <div style="width: 300px;"><br>
                         <label class="dxc-label3">Código Equipamento:</label>
@@ -56,8 +50,14 @@
                         <textarea class="texto1" name="" id="dxc-text-codEquipamento" cols="30" rows="10"></textarea>
                     </div>
 
+                    <br><br>
 
 
+                    <div class="div-texto2 ">
+                        <label class="dxc-label3"> Padronização campo anotações:</label>
+                        <label class="copyButton" onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
+                        <textarea class="texto2" name="" id="dxc-text-anotacaoes" cols="30" rows="10"></textarea>
+                    </div>
 
 
                 </div>
