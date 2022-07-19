@@ -188,7 +188,8 @@ input {
 
 .btnGerar:hover {
     cursor: pointer;
-    color: #fff;
+    background-color: #c8d2df;
+    color: #2d2d2d;
     border-color: #269abc;
 }
 
@@ -270,11 +271,20 @@ input {
     color: #c8d2df;
     padding: 0 12px;
 }
+.copyButton:hover {
+    background-color: #c8d2df;
+    color: #2d2d2d;
+    border-color: #269abc;
+}
+
+.copyButton:hover,
+.copyButton:focus {
+    color: #2d2d2d;
+}
 
 .dxc-poisition-right {
     float: right;
 }
-
 
 
 
