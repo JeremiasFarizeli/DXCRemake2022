@@ -16,16 +16,16 @@ var interval = setInterval(() => {
 let horaSomada
 
 
-function setHoraFinal(){
+function setHoraFinal() {
     let horaRecebida = document.getElementById("dxc-input-hora-inicio").value
     let horaSplit = horaRecebida.split(":")
-    let hora = horaSplit["0"] 
+    let hora = horaSplit["0"]
     let minuto = horaSplit["1"]
     horaSomada = 0
 
-    let horaInt = parseInt(horaSplit["0"]) + 1
+    let horaInt = parseInt(hora) + 1
 
-    horaSomada =  `${horaInt}:${minuto}`
+    horaSomada = `${horaInt}:${minuto}`
     document.getElementById("dxc-input-hora-final").value = horaSomada
 }
 
@@ -62,7 +62,7 @@ function copiarTextoEmailPadrao() {
 
 //  FUNÇÃO BOTÃO GERAR PAGINA USER NOT FOUND
 function dxcFunctionUserNotFound() {
-    
+
     // COLETA DADOS DA PAGINA USUÁRIO NÃO ENCONTRADO
     let horaInicio = document.getElementById("dxc-input-hora-inicio").value
     let horaFinal = document.getElementById("dxc-input-hora-final").value
@@ -73,10 +73,10 @@ function dxcFunctionUserNotFound() {
     let numChamado = document.getElementById("numChamado").value
 
     let dataAgendamento = document.getElementById("dxc-input-date").value;
-    let str2 = dataAgendamento; 
+    let str2 = dataAgendamento;
     let mes2 = str2.slice(5, 7);
     let dia2 = str2.slice(8, 10);
-    let dataFormatada = dia2+"/"+mes2;
+    let dataFormatada = dia2 + "/" + mes2;
 
     // CODIGOS DO CAMPO CODIGO DO EQUIPAMENTO
     let codEquipamento = "LOCAL1EMAIL"
@@ -98,8 +98,8 @@ function dxcFunctionUserNotFound() {
 ${op} Tentativa de contato com usuário feita em ${dataHora} Via teams e telefone. Novo contato previsto para ${dataFormatada} - ${horaSomada}.`
 
     // **********************************************************************
-    let emailPadrao = 
-`Bom dia/Boa tarde!
+    let emailPadrao =
+        `Bom dia/Boa tarde!
 
 Sr(a) ${userName},
 
@@ -118,13 +118,13 @@ Equipe DXC
     let assuntoEmail = `IMPORTANTE - Para o atendimento ao seu chamado ${numChamado} - ${op} Tentativa de contato.`
 
     // **********************************************************************
-    
+
     //TEXTO PARA CODIGO DO EQUIPAMENTO: 
     document.getElementById("dxc-text-codEquipamento").value = codEquipamento
     //CAMPO ANOTAÇÕES
     document.getElementById("dxc-text-anotacaoes").value = anotacoes
     //CAMPO ASSUNTO DO EMAIL 
-    document.getElementById("dxc-text-assuntoEmail").value = assuntoEmail   
+    document.getElementById("dxc-text-assuntoEmail").value = assuntoEmail
     //TEXTO CORPO DO EMAIL
     document.getElementById("dxc-textarea-emailPadrao").value = emailPadrao
 

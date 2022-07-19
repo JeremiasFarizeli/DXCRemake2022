@@ -25,8 +25,8 @@
                                         <ul>
                                             <li><a href="002_pcaasComBF.php">PcaaS Garantia C/ B&F</a></li>
                                             <li><a href="002_pcaasSemBF.php">PcaaS Garantia S/ B&F</a></li>
-                                            <li><a href="index.php">Bateria C/ Garantia</a></li>
-                                            <li><a href="index.php">Bateria S/ Garantia</a></li>
+                                            <li><a href="002_bateria.php">Bateria</a></li>
+                                            
                                         </ul>
                                     </div>
                                 </li>

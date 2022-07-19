@@ -1,5 +1,3 @@
-
-
 <?php 
     include("header.php");
 ?>
@@ -7,64 +5,64 @@
 
 <script src="../js/002_pcaasSemBF.js"></script>
 
-        <!-- Inicio do container central -->
-        <div>
-            <section>
-                <div class="dxc-card-left">
-                    <aside>
-                        <div>
+<!-- Inicio do container central -->
+<div>
+    <section>
+        <div class="dxc-card-left">
+            <aside>
+                <div>
 
-                            <label class="dxc-label2" for="">PcaaS em garantia SEM B&F:</label><br>
+                    <label class="dxc-label2" for="">PcaaS em garantia SEM B&F:</label><br>
 
-                            <br><br>
-                            <br><br>
-
-                    
+                    <br><br>
+                    <br><br>
 
 
-                            <div class="dxc-poisition-right">
-                                <button class="btnGerar" class="btnGerar-info" onclick="dxcFunctionBkpDados()">GERAR</button>
-                            </div> 
-                     
-            
-                            <br><br><br><br><br><br>
-                            
-                            <div>
-                                <textarea class="texto2" cols="30" rows="10">PcaaS em Garantia - Situação de falha física onde não foi necessário instalação de equipamento de emprestimo.</textarea>
-                            </div>
 
-                        </div>
-                    </aside>
+
+                    <div class="dxc-poisition-right">
+                        <button class="btnGerar" class="btnGerar-info" onclick="dxcFunctionBkpDados()">GERAR</button>
+                    </div>
+
+
+                    <br><br><br><br><br><br>
+
+                    <div>
+                        <textarea class="texto2" cols="30"
+                            rows="10">PcaaS em Garantia - Situação de falha física onde não foi necessário instalação de equipamento de emprestimo.</textarea>
+                    </div>
+
                 </div>
-                <div class="dxc-card-right ">
-                    <aside>
-                        <div>
-                            <br><br>
-                            <div style="width: 300px;"><br>
-                                <label class="dxc-label3">Código Equipamento:</label>
-                                <label class="copyButton" onclick="copiarTextocodEquipamento()">Copiar</label>
-                                <textarea class="texto1" name="" id="dxc-text-codEquipamento" cols="30"
-                                    rows="10"></textarea>
-                            </div>
-                            <br><br>
-
-
-                            
-                            <div class="div-texto2 ">
-                                <label class="dxc-label3"> Padronização campo anotações:</label>
-                                <label class="copyButton"
-                                    onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
-                                <textarea class="texto2" name="" id="dxc-text-anotacaoes-bkpDados" cols="30" rows="10"></textarea>
-                            </div>
-
-
-
-
-                        </div>
-                    </aside>
-                </div>
-            </section>
+            </aside>
         </div>
+        <div class="dxc-card-right ">
+            <aside>
+                <div>
+                    <br><br>
+                    <div style="width: 300px;"><br>
+                        <label class="dxc-label3">Código Equipamento:</label>
+                        <label class="copyButton" onclick="copiarTextocodEquipamento()">Copiar</label>
+                        <textarea class="texto1" name="" id="dxc-text-codEquipamento" cols="30" rows="10"></textarea>
+                    </div>
+                    <br><br>
+
+
+
+                    <div class="div-texto2 ">
+                        <label class="dxc-label3"> Padronização campo anotações:</label>
+                        <label class="copyButton" onclick="copiarTextoAgendamentoAnotacoes()">Copiar</label>
+                        <textarea class="texto2" name="" id="dxc-text-anotacaoes-bkpDados" cols="30"
+                            rows="10"></textarea>
+                    </div>
+
+
+
+
+                </div>
+            </aside>
+        </div>
+    </section>
+</div>
 
 
 <?php 

@@ -1,0 +1,69 @@
+<?php 
+    include("header.php");
+?>
+
+<script src="../js/002_bateria.js"></script>
+
+
+<!-- Inicio do container central -->
+<div>
+    <section>
+        <div class="dxc-card-left">
+            <aside>
+                <div>
+
+                    <label class="dxc-label2" for="">PROBLEMAS COM BATERIA:</label><br>
+
+                    <br><br><br>
+                    <label class="dxc-label" for="">Escolha:</label>
+                    <select id="dxc-select-bateria" onchange="dxcFunctionBateria()">
+                        <option value="0"> **** Escolha **** </option>
+                        <option value="1ª">Bateria em Garantia</option>
+                        <option value="2ª">Aguardando gerar Orçamento</option>
+                        <option value="3ª">Aguardando aprovação do orçamento</option>
+                    </select>
+
+                    <br><br><br><br><br><br>
+
+                   
+
+
+
+                </div>
+            </aside>
+        </div>
+        <div class="dxc-card-right ">
+            <aside>
+                <div>
+
+                    <div class="div-texto1"><br>
+                        <label class="dxc-label3">Código Equipamento:</label>
+                        <label class="copyButton" onclick="copiarCodEquipamento()">Copiar</label>
+                        <textarea class="texto1" name="" id="dxc-text-codEquipamento" cols="30" rows="10"></textarea>
+                    </div>
+                    <br><br><br>
+
+                    <div class="div-texto3 ">
+                        <label class="dxc-label3"> Padronização campo anotações:</label>
+                        <label class="copyButton" onclick="copiarTextoUserNaoEncontradoAnotacoes()">Copiar</label>
+                        <textarea class="texto2" name="" id="dxc-text-anotacaoes-bateria" cols="30"
+                            rows="10"></textarea>
+                    </div>
+
+
+
+
+                </div>
+            </aside>
+        </div>
+    </section>
+</div> <!-- Fim do container central -->
+
+
+
+
+
+
+<?php 
+    include("footer.php");
+?>
