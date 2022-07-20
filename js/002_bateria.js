@@ -36,12 +36,20 @@ Previsão: Não informada`
             break;
         case '2ª':
             document.getElementById("dxc-text-codEquipamento").value = "BATERIA"
+            anotacoes = `#BateriaTroca
+Aguardando a bateria.
+            
+Chamado vendor: Em processo de abertura
+Previsão: Não informada`
+            break;
+        case '3ª':
+            document.getElementById("dxc-text-codEquipamento").value = "BATERIA"
             anotacoes = `#BateriaOrçamento
 Aguardando orçamento.
             
 Enviado e-mail para a equipe de HardwareManagementVALE.`
             break;
-        case '3ª':
+        case '4ª':
             document.getElementById("dxc-text-codEquipamento").value = "BATERIA"
             anotacoes = `#BateriaAprovação - Aguardando aprovação do orçamento.
 

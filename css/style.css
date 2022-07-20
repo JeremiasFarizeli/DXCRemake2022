@@ -483,7 +483,7 @@ input {
     font-size: 18px;
     margin-top: 10px;
     color: #c8d2df;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 
@@ -526,7 +526,7 @@ input {
     font-size: 18px;
     margin-top: 10px;
     color: #c8d2df;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #dxc-text-anotacaoes-badUse{
@@ -544,3 +544,28 @@ input {
 }
 
 /************************************** Fim CSS pagina BadUse ************************************************/
+/************************************** inicio CSS pagina Pendencia EUC ************************************************/
+
+#dxc-text-anotacaoes-EUC{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 240px;
+    resize: none;
+}
+
+
+#dxc-text-anotacaoes-flex{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 240px;
+    resize: none;
+}
+
+
+/************************************** Fim CSS pagina Pendencia EUC ************************************************/

@@ -30,7 +30,21 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="">Outros</a></li>
+                                <li><a href="">Outros</a>
+                                    <div class="sub-menu-3">
+                                        <ul>
+                                            <li><a href="003_pendenciaEUC.php">Pendencia do EUC</a></li>
+                                            <li><a href="003_flex.php">Chamado Flex</a></li>
+                                            <li><a href="003_bloqueioSite.php">Bloqueio de Site</a></li>
+                                            <li><a href="003_fornecedor.php">Ação de fornecedor Vale</a></li>
+                                            <li><a href="003_criacaoTask.php">Criação de Task - Asset</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+
+
+                                
                             </ul>
                         </div>
 
