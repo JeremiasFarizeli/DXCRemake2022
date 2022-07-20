@@ -18,10 +18,12 @@
                     <label class="dxc-label" for="">Escolha:</label>
                     <select id="dxc-select-badUse" onchange="dxcFunctionBadUse()">
                         <option value="0"> ****  Escolha  **** </option>
-                        <option value="1ª">Bad Use - Aguardando gerar orçamento</option>
-                        <option value="2ª">Bad Use - em manutenção Sem B&F</option>
-                        <option value="3ª">Bad Use - em manutenção Com B&F</option>
-                        <option value="4ª">Bad Use - Aguardando aprovação de orçamento</option>
+                        <option value="1ª">Aguardando gerar orçamento (Fafa)</option>
+                        <option value="5ª">Aguardando gerar orçamento (HardwareManagementVALE)</option>
+                        <option value="4ª">Aguardando aprovação de orçamento</option>
+                        <option value="2ª">Manutenção Sem B&F</option>
+                        <option value="3ª">Manutenção Com B&F</option>
+                        
                     </select>
 
                     <br><br><br><br>

@@ -39,9 +39,10 @@ function dxcFunctionAgendamento() {
     
     let dataAgendamento = document.getElementById("dxc-input-date").value;
     let str2 = dataAgendamento; 
+    let ano = str2.slice(0, 4);
     let mes2 = str2.slice(5, 7);
     let dia2 = str2.slice(8, 10);
-    let dataFormatada = dia2+"/"+mes2;
+    let dataFormatada = dia2+"/"+mes2 +"/"+ano;
 
 
     // CODIGOS DO CAMPO CODIGO DO EQUIPAMENTO

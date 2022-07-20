@@ -39,6 +39,9 @@ function dxcFunctionBadUse() {
         case '4ª':
             opt04()
             break;
+        case '5ª':
+            opt05()
+            break;
         case '0':
             document.getElementById("dxc-show-badUseOptions").style.display = "none"
             alert("Escolha uma opção")
@@ -88,7 +91,7 @@ function opt01() {
     document.getElementById("dxc-text-codEquipamento").value = "ORÇAMENTO"
     anotacoes = `#Nãocobertopelagarantia - Aguardando o Orçamento.
 
-Enviado e-mail para a equipe de HardwareManagementVALE.`
+Enviado e-mail para a equipe de Stock Coordinator.`
 
     //CAMPO ANOTAÇÕES
     document.getElementById("dxc-text-anotacaoes-badUse").value = anotacoes
@@ -126,6 +129,17 @@ function opt04() {
     anotacoes = `#Nãocobertopelagarantia - Aguardando aprovação do orçamento.
 
 Enviado orçamento para o email do usuário, aguardando aprovação.`
+
+    //CAMPO ANOTAÇÕES
+    document.getElementById("dxc-text-anotacaoes-badUse").value = anotacoes
+}
+
+function opt05() {
+    document.getElementById("dxc-show-badUseOptions").style.display = "none"
+    document.getElementById("dxc-text-codEquipamento").value = "ORÇAMENTO"
+    anotacoes = `#Nãocobertopelagarantia - Aguardando o Orçamento.
+
+Enviado e-mail para a equipe de HardwareManagementVALE.`
 
     //CAMPO ANOTAÇÕES
     document.getElementById("dxc-text-anotacaoes-badUse").value = anotacoes

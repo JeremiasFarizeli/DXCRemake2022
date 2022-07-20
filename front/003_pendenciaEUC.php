@@ -16,7 +16,7 @@
                     <br><br>
 
 
-                    <label class="dxc-label" for="">Agendado para:</label>
+                    <label class="dxc-label" for="">Contato feito em:</label>
                     <input class="dxc-input-date" id="dxc-input-date" type="date">
                     <br>
 

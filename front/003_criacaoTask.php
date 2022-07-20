@@ -15,7 +15,7 @@
                     <label class="dxc-label2" for="">CRIAÇÃO DE TASK POR ASSET:</label><br>
                     <br><br><br><br><br>
 
-                    <textarea class="texto3">  #Nãocobertopelagarantia - Aguardando ações do ASSET </textarea>
+                    <textarea class="texto3">  Aguardando ações do ASSET </textarea>
 
                     <br><br><br>
 

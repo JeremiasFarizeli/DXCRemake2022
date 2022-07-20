@@ -20,7 +20,8 @@
                         <option value="0"> **** Escolha **** </option>
                         <option value="1ª">Bateria em Garantia</option>
                         <option value="2ª">Bateria sem Garantia/substituição</option>
-                        <option value="3ª">Bad Use - Orçamento</option>
+                        <option value="3ª">Bad Use - Orçamento (Fafa)</option>
+                        <option value="5ª">Bad Use - Orçamento (HardwareManagementVALE)</option>
                         <option value="4ª">Bad Use - Aprovação orçamento</option>
                         
                     </select>

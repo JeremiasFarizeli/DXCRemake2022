@@ -47,7 +47,7 @@ Previsão: Não informada`
             anotacoes = `#BateriaOrçamento
 Aguardando orçamento.
             
-Enviado e-mail para a equipe de HardwareManagementVALE.`
+Enviado e-mail para a equipe de Stock Coordinator.`
             break;
         case '4ª':
             document.getElementById("dxc-text-codEquipamento").value = "BATERIA"
@@ -55,6 +55,13 @@ Enviado e-mail para a equipe de HardwareManagementVALE.`
 
 Enviado orçamento ao email do usuário, aguardando aprovação.`
             break;
+            case '5ª':
+                document.getElementById("dxc-text-codEquipamento").value = "BATERIA"
+                anotacoes = `#BateriaOrçamento
+Aguardando orçamento.
+                
+Enviado e-mail para a equipe de HardwareManagementVALE.`
+                break;
         case '0':
             alert("Escolha uma opção")
             document.getElementById("dxc-text-codEquipamento").value = ""
