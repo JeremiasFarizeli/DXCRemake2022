@@ -18,18 +18,22 @@
                     <br><br>
 
                     <div>
-                        <label class="dxc-label2" for="">Dados do equipamento de emprestimo:</label><br>
-                        <label class="dxc-label" for="">Serial:</label>
-                        <input id="dxc-input-serial" type="text">
-
-                        <label class="dxc-label" for="">E-tag:</label>
-                        <input id="dxc-input-etag" type="text">
+                    <label class="dxc-label2" for="">Dados do equipamento de emprestimo:</label><br>
+                        <div>
+                            <div class="dxc-poisition-right">
+                                <button class="btnGerar" class="btnGerar-info" onclick="dxcFunction()">GERAR</button>
+                            </div>
+                            
+                            <label class="dxc-label" for="">Serial:</label>
+                            <input id="dxc-input-serial" type="text">
+                        </div>
+                        <div>
+                            <label class="dxc-label" for="">E-tag:</label>
+                            <input id="dxc-input-etag" type="text">
+                        </div>
                     </div>
 
 
-                    <div class="dxc-poisition-right">
-                        <button class="btnGerar" class="btnGerar-info" onclick="dxcFunction()">GERAR</button>
-                    </div>
 
 
                     <br><br><br><br><br><br>

@@ -175,6 +175,7 @@ input {
     margin-bottom: 15px;
 }
 
+
 /************************************** inicio CSS Botão ************************************************/
 .btnGerar {
     background-color: #2d2d2d;
@@ -430,7 +431,7 @@ input {
     font-size: 18px;
     margin-top: 10px;
     color: #c8d2df;
-    width: 300px;
+    width: 230px;
 }
 
 #dxc-input-etag {
@@ -441,7 +442,7 @@ input {
     font-size: 18px;
     margin-top: 10px;
     color: #c8d2df;
-    width: 300px;
+    width: 235px;
 }
 
 #dxc-text-anotacaoes-pcaasComBF {
@@ -502,3 +503,44 @@ input {
 
 
 /************************************** Fim CSS pagina agendamento não cumprido ************************************************/
+
+#dxc-text-anotacaoes-3trikes{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 95px;
+    resize: none;
+}
+
+/************************************** inicio CSS pagina BadUse ************************************************/
+
+#dxc-select-badUse{
+    height: 40px;
+    width: 350px;
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+    text-align: center;
+}
+
+#dxc-text-anotacaoes-badUse{
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 180px;
+    resize: none;
+}
+
+#dxc-show-badUseOptions{
+
+}
+
+/************************************** Fim CSS pagina BadUse ************************************************/

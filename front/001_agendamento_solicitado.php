@@ -28,18 +28,16 @@
 
                     <br><br>
 
+                    <br><br><br>
 
-                    <br><br>
                     <input class="dxc-input-text" id="dxc-input-userName" type="text" placeholder="Nome do usuário">
 
-                    <br><br>
-
-                    <input class="dxc-input-text" id="numChamado" type="text" placeholder="Numero do chamado">
-
-                    <br><br>
+                    <br>
 
                     <!-- DIV BOTÃO -->
                     <div>
+                        <input style="width: 300px;" class="dxc-input-text" id="numChamado" type="text"
+                            placeholder="Numero do chamado">
                         <div class="dxc-poisition-right">
                             <button class="btnGerar" class="btnGerar-info"
                                 onclick="dxcFunctionAgendamento()">GERAR</button>

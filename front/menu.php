@@ -26,7 +26,7 @@
                                             <li><a href="002_pcaasComBF.php">PcaaS Garantia C/ B&F</a></li>
                                             <li><a href="002_pcaasSemBF.php">PcaaS Garantia S/ B&F</a></li>
                                             <li><a href="002_bateria.php">Bateria</a></li>
-                                            
+                                            <li><a href="002_badUsePcaaS.php">PcaaS - Bad Use</a></li>
                                         </ul>
                                     </div>
                                 </li>

@@ -19,8 +19,8 @@
                     <select id="dxc-select-bateria" onchange="dxcFunctionBateria()">
                         <option value="0"> **** Escolha **** </option>
                         <option value="1ª">Bateria em Garantia</option>
-                        <option value="2ª">Aguardando gerar Orçamento</option>
-                        <option value="3ª">Aguardando aprovação do orçamento</option>
+                        <option value="2ª">Bad Use - Orçamento</option>
+                        <option value="3ª">Bad Use - Aprovação orçamento</option>
                     </select>
 
                     <br><br><br><br><br><br>

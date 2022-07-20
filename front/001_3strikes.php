@@ -74,7 +74,7 @@
                     <div class="div-texto2 ">
                         <label class="dxc-label3"> Padronização campo anotações:</label>
                         <label class="copyButton" onclick="copiarTextoUserNaoEncontradoAnotacoes()">Copiar</label>
-                        <textarea class="texto2" name="" id="dxc-text-anotacaoes" cols="30" rows="10"></textarea>
+                        <textarea name="" id="dxc-text-anotacaoes-3trikes" cols="30" rows="10"></textarea>
                     </div>
 
                     <div class="div-texto1"><br>
