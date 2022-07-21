@@ -3,24 +3,46 @@ nav {
     text-align: center;
     border-radius: 10px;
     margin: auto;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
     width: 1360px;
-    font-size: 18px;  
+    font-size: 18px; 
 }
 
 nav ul {
     display: inline-flex;
     list-style: none;
-    margin: 0;   
+    margin: 0;     
 }
 
+.menu-li-01{
+    width: 130px;
+    margin: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 0; 
+}
+
+.menu-li-02{
+    width: 130px;
+    margin: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 0; 
+    background-color: blue;
+}
+
+/*
 nav ul li {
     width: 220px;
     margin: 10px;
     padding-bottom: 8px;
     padding-top: 8px;
     margin-left: 0; 
+    background-color: blue;
 }
+
+*/
+
 
 nav ul li a {
     text-decoration: none;

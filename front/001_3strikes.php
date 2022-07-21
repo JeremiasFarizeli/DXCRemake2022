@@ -76,7 +76,7 @@
                         <label class="copyButton" onclick="copiarTextoUserNaoEncontradoAnotacoes()">Copiar</label>
                         <textarea name="" id="dxc-text-anotacaoes-3trikes" cols="30" rows="10"></textarea>
                     </div>
-
+                   
                     <div class="div-texto1"><br>
                         <label class="dxc-label3">Código Equipamento:</label>
                         <label class="copyButton" onclick="copiarTextoUserNaocodEquipamento()">Copiar</label>

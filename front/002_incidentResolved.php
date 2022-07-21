@@ -67,7 +67,7 @@
                 <div>
 
                     <div class="div-texto4"><br>
-                        <label class="dxc-label3"> Testo de Encerramento:</label>
+                        <label class="dxc-label3"> Texto de Encerramento:</label>
                         <label class="copyButton" onclick="copiarTexto()">Copiar</label>
                         <textarea id="dxc-textarea-encerramento" cols="30" rows="10"></textarea>
                     </div>

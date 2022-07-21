@@ -63,21 +63,41 @@ function dxcFunctionBadUse() {
 function dxcFunction() {
     serial = document.getElementById("dxc-input-serial").value
     etag = document.getElementById("dxc-input-etag").value
+    document.getElementById("dxc-text-anotacaoes-badUse").value = ""
+    document.getElementById("dxc-text-codEquipamento").value = ""
+    
 
-    document.getElementById("dxc-text-codEquipamento").value = "BAD USE - MANUTENÇÃO"
+    if (serial == "") {
+        alert("Preencha o campo serial")
+        document.getElementById("dxc-input-serial").value = ""
+        document.getElementById("dxc-text-anotacaoes-badUse").value = ""
+        document.getElementById("dxc-text-codEquipamento").value = ""
+        document.getElementById("dxc-input-serial").focus()
+    }
 
-    anotacoes = `#Nãocobertopelagarantia - Aguardando Manutenção.
+    else if (etag == "") {
+        alert("Preencha o campo E-tag")
+        document.getElementById("dxc-text-anotacaoes-badUse").value = ""
+        document.getElementById("dxc-text-codEquipamento").value = ""
+        document.getElementById("dxc-input-etag").value = ""
+        document.getElementById("dxc-input-etag").focus()
+    }
+
+    else if (serial != "" || etag != "") {
+        document.getElementById("dxc-text-codEquipamento").value = "BAD USE - MANUTENÇÃO"
+
+        anotacoes = `#Nãocobertopelagarantia - Aguardando Manutenção.
 
 Chamado vendor: Em processo de abertura
 Previsão: Não informada
 Instalado equipamento de BKP: SIM (Serial: ${serial} / Etag: ${etag})`
 
-    //CAMPO ANOTAÇÕES
-    document.getElementById("dxc-text-anotacaoes-badUse").value = anotacoes
-
-    // ZERANDO OS CAMPO
-    document.getElementById("dxc-input-serial").value = ""
-    document.getElementById("dxc-input-etag").value = ""
+        //CAMPO ANOTAÇÕES
+        document.getElementById("dxc-text-anotacaoes-badUse").value = anotacoes
+    } else {
+        document.getElementById("dxc-input-serial").value = ""
+        document.getElementById("dxc-input-etag").value = ""
+    }
 }
 
 

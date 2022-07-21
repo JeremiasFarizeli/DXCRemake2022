@@ -20,6 +20,7 @@
                                         </ul>
                                     </div>
                                 </li>
+                                <li><a href="001_emAndamento.php">Em andamento</a>
                                 <li><a href="">Falha Física</a>
                                     <div class="sub-menu-3">
                                         <ul>
