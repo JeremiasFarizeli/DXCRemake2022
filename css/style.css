@@ -75,7 +75,7 @@ input {
 
 .dxc-input-text {
     height: 40px;
-    background-color: #2d2d2d
+    background-color: #4F4F4F; /*#2d2d2d; */
         /*#1B2531*/
     ;
     border: 1px solid #384459;
@@ -89,7 +89,7 @@ input {
 
 .dxc-input-text-phones {
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     color: #c8d2df;
@@ -100,7 +100,7 @@ input {
 
 .dxc-input-date {
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 0 20px;
@@ -112,7 +112,7 @@ input {
 .dxc-input-hora {
     height: 40px;
     width: 125px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 0px 20px;
@@ -124,7 +124,7 @@ input {
 .dxc-select-tentativas {
     height: 40px;
     width: 250px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 0 20px;
@@ -135,7 +135,7 @@ input {
 
 .dxc-label {
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     color: #c8d2df;
@@ -222,7 +222,7 @@ input {
 }
 
 .texto1 {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -233,7 +233,7 @@ input {
 }
 
 .texto2 {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -243,7 +243,7 @@ input {
 }
 
 .texto3 {
-    background-color: #2d2d2d;
+    background-color:  #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -253,7 +253,7 @@ input {
 }
 
 .texto4 {
-    background-color: #2d2d2d;
+    background-color:  #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -300,7 +300,7 @@ input {
 }
 
 #dxc-textarea-causaraiz {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -310,7 +310,7 @@ input {
 }
 
 #dxc-textarea-acaoimediata {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -320,7 +320,7 @@ input {
 }
 
 #dxc-textarea-acaocorretiva {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -330,7 +330,7 @@ input {
 }
 
 #dxc-input-teste-encerrar-incident {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 380px;
@@ -340,7 +340,7 @@ input {
 }
 
 #dxc-input-analista-encerrar-incident {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 380px;
@@ -350,7 +350,7 @@ input {
 }
 
 #dxc-textarea-encerramento {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -361,7 +361,7 @@ input {
 
 
 #dxc-textarea-observacao {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     margin-top: 2px;
     border-radius: 8px;
@@ -381,7 +381,7 @@ input {
 /************************************** Inicio CSS pagina Bkp de Dados ************************************************/
 
 #dxc-text-anotacaoes-bkpDados {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -398,7 +398,7 @@ input {
 
 #dxc-input-feriado {
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     font-size: 18px;
@@ -414,7 +414,7 @@ input {
 
 #dxc-input-feriado {
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     font-size: 18px;
@@ -425,7 +425,7 @@ input {
 
 #dxc-input-serial {
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     font-size: 18px;
@@ -436,7 +436,7 @@ input {
 
 #dxc-input-etag {
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     font-size: 18px;
@@ -446,7 +446,7 @@ input {
 }
 
 #dxc-text-anotacaoes-pcaasComBF {
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -464,7 +464,7 @@ input {
 }
 
 #dxc-text-anotacaoes-bateria{
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -476,7 +476,7 @@ input {
 #dxc-select-bateria{
     height: 40px;
     width: 350px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 0 20px;
@@ -492,7 +492,7 @@ input {
 /************************************** inicio CSS pagina agendamento não cumprido ************************************************/
 
 #dxc-textarea-emailPadrao-NaoCumprido{
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -505,7 +505,7 @@ input {
 /************************************** Fim CSS pagina agendamento não cumprido ************************************************/
 
 #dxc-text-anotacaoes-3trikes{
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -519,7 +519,7 @@ input {
 #dxc-select-badUse{
     height: 40px;
     width: 350px;
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     padding: 0 20px;
@@ -530,7 +530,7 @@ input {
 }
 
 #dxc-text-anotacaoes-badUse{
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -547,7 +547,7 @@ input {
 /************************************** inicio CSS pagina Pendencia EUC ************************************************/
 
 #dxc-text-anotacaoes-EUC{
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
@@ -558,7 +558,7 @@ input {
 
 
 #dxc-text-anotacaoes-flex{
-    background-color: #2d2d2d;
+    background-color: #4F4F4F; /*#2d2d2d; */
     border: 1px solid #384459;
     border-radius: 8px;
     width: 100%;
