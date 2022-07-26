@@ -55,7 +55,7 @@
                             <ul>
                                 <li><a href="002_incidentResolved.php">Resolved</a></li>
                                 <li><a href="002_agendamentoNaoCumprido.php">Agendamento não cumprido</a></li>
-                                <li><a href="index.php">3 Strikes</a></li>
+                                <li><a href="002_resolved3strikes.php">3 Strikes</a></li>
                             </ul>
                         </div>
                     </li>

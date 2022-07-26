@@ -569,3 +569,12 @@ input {
 
 
 /************************************** Fim CSS pagina Pendencia EUC ************************************************/
+#dxc-textarea-emailPadrao-Encerrar3strikes{
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 400px;
+    resize: none;
+}
