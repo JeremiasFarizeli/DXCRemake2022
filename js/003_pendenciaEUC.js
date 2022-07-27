@@ -16,17 +16,19 @@ var interval = setInterval(() => {
 let horaSomada
 
 
-function setHoraFinal(){
+function setHoraFinal() {
     let horaRecebida = document.getElementById("dxc-input-hora-inicio").value
     let horaSplit = horaRecebida.split(":")
-    let hora = horaSplit["0"] 
+    let hora = horaSplit["0"]
     let minuto = horaSplit["1"]
     horaSomada = 0
 
+    let horaInt = parseInt(hora) + 1
+    if (horaInt < 10) {
+        horaInt = '0' + horaInt
+    }
 
-    let horaInt = parseInt(horaSplit["0"]) + 1
-
-    horaSomada =  `${horaInt}:${minuto}`
+    horaSomada = `${horaInt}:${minuto}`
     document.getElementById("dxc-input-hora-final").value = horaSomada
 }
 

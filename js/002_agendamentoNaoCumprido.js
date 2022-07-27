@@ -24,6 +24,9 @@ function setHoraFinal() {
     horaSomada = 0
 
     let horaInt = parseInt(hora) + 1
+    if (horaInt < 10) {
+        horaInt = '0' + horaInt
+    }
 
     horaSomada = `${horaInt}:${minuto}`
     document.getElementById("dxc-input-hora-final").value = horaSomada

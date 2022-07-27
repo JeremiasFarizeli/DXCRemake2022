@@ -24,8 +24,13 @@ function setHoraFinal() {
     horaSomada = 0
 
     let horaInt = parseInt(hora) + 1
+    if (horaInt < 10) {
+        horaInt = '0' + horaInt
+    }
 
     horaSomada = `${horaInt}:${minuto}`
+
+
     document.getElementById("dxc-input-hora-final").value = horaSomada
 }
 
@@ -73,11 +78,11 @@ function dxcFunctionUserNotFound() {
     let numChamado = document.getElementById("numChamado").value
 
     let dataAgendamento = document.getElementById("dxc-input-date").value;
-    let str2 = dataAgendamento; 
+    let str2 = dataAgendamento;
     let ano = str2.slice(0, 4);
     let mes2 = str2.slice(5, 7);
     let dia2 = str2.slice(8, 10);
-    let dataFormatada = dia2+"/"+mes2 +"/"+ano;
+    let dataFormatada = dia2 + "/" + mes2 + "/" + ano;
 
     // CODIGOS DO CAMPO CODIGO DO EQUIPAMENTO
     let codEquipamento = "LOCAL1EMAIL"
