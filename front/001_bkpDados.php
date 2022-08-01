@@ -37,6 +37,7 @@
                     <br><br><br><br><br><br>
 
                     <div>
+                        <label class="dxc-label3"> Orientações:</label>
                         <textarea class="texto2" cols="30"
                             rows="10">O Incident pode ser agendado por até dois dias úteis para esse processo, ao termino o analista valida se usuário finalizou a copia dos dados e retoma o atendimento ou encerra o incident.</textarea>
                     </div>

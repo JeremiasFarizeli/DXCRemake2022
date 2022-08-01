@@ -63,7 +63,55 @@
             </div>
 
         </li>
-       
+
+        <li><a href="">Work Order</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-sub"><a href="">Instalações</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li class="hover-sub"><a href="">3 Strikes</a> </li>
+                                <li><a href="#">Pendencia Midea/serial</a>
+                                <li><a href="#">Agendamentos</a> </li>
+                                <li><a href="#">Resolved</a> </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="hover-sub"><a href="">Descartes</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li class="hover-sub"><a href="">3 Strikes</a> </li>
+                                <li><a href="#">Aguardando Orçamento</a>
+                                <li><a href="#">Agendamentos</a> </li>
+                                <li><a href="#">Resolved</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="hover-sub"><a href="">Entregas</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li class="hover-sub"><a href="">3 Strikes</a> </li>
+                                <li><a href="#">Agendamentos</a> </li>
+                                <li><a href="#">Resolved</a> </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="hover-sub"><a href="">Reuso</a>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li class="hover-sub"><a href="">3 Strikes</a> </li>
+                                <li><a href="#">Agendamentos</a> </li>
+                                <li><a href="#">Resolved</a> </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+        </li>
         <!-- <li><a href="">Work Order</a></li>   -->
 
         <li><a href="#">LINKS DXC</a>
@@ -71,8 +119,10 @@
                 <ul>
                     <li><a href="http://www.dxc.technology/" target="_blank">Intranet DXC</a></li>
                     <li><a href="https://dxctime.dxc.com/" target="_blank">CATW</a></li>
-                    <li><a href="https://uid.dxc.com/home/dxcprod_payoutwwadpglobalviewproddxc_1/0oa6edk3rNJThArbN5d6/aln6ekostr2hV9f0b5d6" target="_blank">Contra cheque DXC</a></li>
-                    <li><a href="https://am.svcs.entsvcs.net/itam-av1/WebPages/Asset/SearchByAsset.aspx" target="_blank">AVS - DXC</a></li>
+                    <li><a href="https://uid.dxc.com/home/dxcprod_payoutwwadpglobalviewproddxc_1/0oa6edk3rNJThArbN5d6/aln6ekostr2hV9f0b5d6"
+                            target="_blank">Contra cheque DXC</a></li>
+                    <li><a href="https://am.svcs.entsvcs.net/itam-av1/WebPages/Asset/SearchByAsset.aspx"
+                            target="_blank">AVS - DXC</a></li>
                 </ul>
 
             </div>
@@ -85,20 +135,23 @@
                     <li><a href="http://172.23.83.115:8023/UserPanel/default.asp" target=" _blank">Painel do
                             Usuário</a>
                     </li>
-                    </li>
-                    <li><a href="https://sspr.iam.valeglobal.net/sspr/private/Login" target="_blank">Reset Senha
-                            VALENET</a>
-                    </li>
-                    <li><a href="https://brqsb1valeas944.valenet.valeglobal.net/HelpDesk/" target="_blank">BitLocker
-                            Adm</a>
-                    </li>
-                    </li>
-                    <li><a href="http://172.23.83.115:8026/apps/GSDUsuarios_dsv/modulos/OS/eTag.asp?pesquisa=S" target="_blank">Consulta ETAG</a></li>
-                    <li><a href="http://intranet.valepub.net/pt/paginas/tecnologia-da-informacao/ferramentas-de-comunicacao-e-colaboracao/onedrive/onedrive.aspx" target="_blank">OneDrive Questions</a></li>
-                    <li><a href="https://ds355.awmdm.com/MyDevice/" target="_blank">AirWatch validar acesso</a></li>
-                    <li><a href="https://outlook.office365.com/owa/calendar/ITServicesLoungeEspritoSanto@globalvale.onmicrosoft.com/bookings/" target="_blank">Agenda ITSL</a></li>
-                </ul>
-            </div>
         </li>
+        <li><a href="https://sspr.iam.valeglobal.net/sspr/private/Login" target="_blank">Reset Senha
+                VALENET</a>
+        </li>
+        <li><a href="https://brqsb1valeas944.valenet.valeglobal.net/HelpDesk/" target="_blank">BitLocker
+                Adm</a>
+        </li>
+        </li>
+        <li><a href="http://172.23.83.115:8026/apps/GSDUsuarios_dsv/modulos/OS/eTag.asp?pesquisa=S"
+                target="_blank">Consulta ETAG</a></li>
+        <li><a href="http://intranet.valepub.net/pt/paginas/tecnologia-da-informacao/ferramentas-de-comunicacao-e-colaboracao/onedrive/onedrive.aspx"
+                target="_blank">OneDrive Questions</a></li>
+        <li><a href="https://ds355.awmdm.com/MyDevice/" target="_blank">AirWatch validar acesso</a></li>
+        <li><a href="https://outlook.office365.com/owa/calendar/ITServicesLoungeEspritoSanto@globalvale.onmicrosoft.com/bookings/"
+                target="_blank">Agenda ITSL</a></li>
+    </ul>
+    </div>
+    </li>
     </ul>
 </nav>

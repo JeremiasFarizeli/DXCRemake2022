@@ -36,6 +36,7 @@
 
 
                     <div>
+                        <label class="dxc-label3"> Orientações:</label>
                         <textarea class="texto4" cols="30" rows="10">Os contatos via Teams e e-mails só podem ser enviados em dias úteis, dentro do horário de expediente. 
 
 Exemplificando:

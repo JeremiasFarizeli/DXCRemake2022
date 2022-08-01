@@ -34,6 +34,7 @@
                     <br><br><br><br><br><br>
 
                     <div>
+                        <label class="dxc-label3"> Orientações:</label>
                         <textarea class="texto2" cols="30"
                             rows="10">O Incident ficará em suspend até o próximo dia útil após o feriado e compensação se houver.</textarea>
                     </div>

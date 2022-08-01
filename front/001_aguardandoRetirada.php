@@ -18,7 +18,7 @@
                     <br><br>
 
                     <div>
-
+                        <label class="dxc-label3"> Orientações:</label>
                         <textarea class="texto2" cols="30"
                             rows="10">Feita a manutenção e usuário já ciente que deve retirar o equipamento.</textarea>
                     </div>
